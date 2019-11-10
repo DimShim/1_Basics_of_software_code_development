@@ -9,13 +9,10 @@ import java.util.Scanner;
  */
 public class Task_18_Cycles {
 	public static void main(String[] args) {
-		
-		
 		Scanner in = new Scanner(System.in);
 		
 		System.out.print("Enter m: ");
 		int m = in.nextInt();
-		
 		System.out.print("Enter n > m: ");
 		int n = in.nextInt();
 		
@@ -25,7 +22,6 @@ public class Task_18_Cycles {
 			if(m % i == 0 & i != m) {
 				System.out.print(i + " " );
 			}
-			
 		}
 		System.out.println();
 		m += 1;
