@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 /*
  * 7. Для каждого натурального числа в промежутке от m до n вывести все делители,
- *    кроме единицы и самого числа. m и n вводятся с клавиатуры.
- *    
+ *    кроме единицы и самого числа. m и n вводятся с клавиатуры.   
  */
+
 public class Task_18_Cycles {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
