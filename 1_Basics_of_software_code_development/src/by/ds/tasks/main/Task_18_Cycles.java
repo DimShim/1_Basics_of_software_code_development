@@ -18,7 +18,7 @@ public class Task_18_Cycles {
 		
 		while(m <= n) {
 			System.out.print(m + " - ");
-		for(int i = 2; i <= n; i++) {
+		for(int i = 2; i <= m; i++) {
 			if(m % i == 0 & i != m) {
 				System.out.print(i + " " );
 			}
