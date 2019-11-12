@@ -27,6 +27,5 @@ public class Task_01_LinProg {
 		System.out.printf("Значение функции z = %.2f \n", z);
 
 		in.close();
-
 	}
 }
